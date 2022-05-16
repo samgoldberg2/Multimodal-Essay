@@ -1,0 +1,163 @@
+p {
+  color: black;
+  background-color: yellow;
+  font-family: sans-serif, Verdana, Arial;
+}
+
+em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+body {
+font-family: sans-serif, Georgia, Arial;
+font-size: 14px;
+color: black;
+background-color: #2497f6
+}
+
+h1 {
+font-size: 24px;
+font-weight: bold;
+font-stretch: expanded;
+font-variant: small-caps;
+text-decoration: underline;
+color: black;
+background-color: cyan
+}
+
+h2 {
+font-size: 18px;
+font-weight: bold;
+font-stretch: expanded;
+font-style: italic;
+font-variant: small-caps;
+text-decoration: underline;
+color: black;
+background-color: cyan
+}
+
+h3 {
+font-size: 18px;
+font-weight: bold;
+font-stretch: expanded;
+font-style: italic;
+font-variant: small-caps;
+text-decoration: underline;
+color: blue;
+background-color: yellow
+}
+
+
+p a {
+  font-variant: inherit;
+  font-style: italic;
+  text-decoration: inherit;
+}
+
+a {
+  color: #192759;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.nav{
+  display: flex;
+  flex-direction:row;
+  background-color: #2497f6;
+  color: black;
+}
+
+.link1{
+  background-color: #67cd2f;
+}
+
+a:hover{
+  color: blue;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.link2{
+background-color: cyan;
+}
+
+.link3{
+background-color: #4577d9;
+}
+
+.link4{
+background-color:yellow;
+}
+
+.homepage{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.hmpnav{
+  display: flex;
+  flex-direction:row;
+  background-color: #2497f6;
+  color: black;
+  width: 60%;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.hmpheader{
+}
+
+.linkintro{
+}
+
+.top-row{
+  display: flex;
+  flex-direction: row;
+  gap: 100px
+}
+
+.bottom-row{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.smaller-image{
+  max-height: 600px;
+  overflow: hidden;
+  object-position: center;
+  object-fit: fill;
+  margin: 10px 10px 0px 0px;
+}
+
+.hmp_img{
+  max-height: 600px;
+  width: inherit;
+  overflow: hidden;
+  object-position: center;
+  object-fit: fill;
+  margin: 10px 10px 0px 0px;
+}
+
+.band_img{
+  max-height: 400px;
+  width: auto;
+}
+
+.list1{
+  background-color: #4ab1cc
+}
+
+.list2{
+background-color: #4acca9
+}
+
+.list3{
+background-color: #cc944a
+}
+
+.hendrix{
+  display: flex;
+  flex-direction: column;
+}
